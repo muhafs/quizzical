@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  @apply font-karla;
+}
+
+body {
+  @apply flex h-screen items-center justify-center bg-black;
+}
